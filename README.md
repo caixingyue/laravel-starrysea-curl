@@ -39,7 +39,7 @@ composer require starrysea/curl
 ```bash
 $app->register(Starrysea\Curl\CurlServiceProvider::class); // 注册 Curl 服务提供者
 
-class_alias('Starrysea\Curl\Curl::class', 'Curl'); // 添加 Curl 门面
+class_alias(Starrysea\Curl\Curl::class, 'Curl'); // 添加 Curl 门面
 ```
 
 ## 用法
